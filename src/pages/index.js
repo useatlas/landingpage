@@ -11,6 +11,7 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import {Helmet} from "react-helmet";
 import ogImage from "../svg/og.png"
+import favicon from "../svg/favicon.png"
 // import screen3 from "../svg/iphone.png"
 import screen1 from "../svg/first.png"
 import screen2 from "../svg/skip.png"
@@ -174,8 +175,10 @@ return(
           content: `https://landingpage-ashen.vercel.app/${ogImage}`,
         },
       ]}
+      
     />
     <Helmet>
+    <link rel="icon" type="image/png" href={favicon} sizes="16x16" />
     <script src="//embed.typeform.com/next/embed.js"></script>
     
     </Helmet>
