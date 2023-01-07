@@ -157,7 +157,7 @@ const Index = () => {
 return(
   <Layout>
      <Helmet
-      title="Use Atlas"
+      title="Atlas Rent Rewards"
       meta={[
         {
           property: `og:title`,
