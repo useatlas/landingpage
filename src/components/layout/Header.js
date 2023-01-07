@@ -30,7 +30,7 @@ const Header = () => (
       </div>
       <div className="hidden md:block">
         {/* https://atlasrent.typeform.com/rewardswaitlist */}
-        <Button className="text-sm"><a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" >Signup</a> </Button>
+        <a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" ><Button className="text-sm">Signup</Button></a> 
       </div>
     </div>
   </header>

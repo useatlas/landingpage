@@ -221,7 +221,7 @@ return(
             {/* 
               ** @todo to point to typeform 
             */}
-            <Button size="lg" className="hover:bg-yellow-dark"><a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" >Get Started</a></Button>
+            <a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" ><Button size="lg" className="hover:bg-yellow-dark">Get Started</Button></a>
           </p>
           {/* <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p> */}
         </div>
@@ -352,7 +352,7 @@ return(
       </p> */}
       {/* @todo add waitlist typeform */}
       <p className="mt-8">
-        <Button size="xl" className="hover:bg-white" ><a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" >Get Started Now </a></Button>
+        <a href="#" className="text-white hover:text-white" data-tf-popup="oxc6Y5MX" data-tf-iframe-props="title=Atlas: Cash back each month you pay rent! " data-tf-medium="snippet" ><Button size="xl" className="hover:bg-white" >Get Started Now</Button> </a>
       </p>
     </section>
   </Layout>)
