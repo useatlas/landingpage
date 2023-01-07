@@ -7,7 +7,7 @@
   "homepage": "https://atlas-web3-abundance-inc.github.io/landingpage/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby develop",
