@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/landingpage",
   plugins: [
     {
       resolve: `gatsby-theme-codebushi`,

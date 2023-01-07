@@ -6,8 +6,7 @@
   "license": "MIT",
   "homepage": "https://atlas-web3-abundance-inc.github.io/landingpage/",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "start": "gatsby develop",
@@ -22,7 +21,8 @@
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "yargs": "^17.6.2"
   },
   "devDependencies": {
     "eslint": "^7.21.0",
