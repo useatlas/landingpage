@@ -10,7 +10,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import {Helmet} from "react-helmet";
-
+import ogImage from "../svg/og.png"
 // import screen3 from "../svg/iphone.png"
 import screen1 from "../svg/first.png"
 import screen2 from "../svg/skip.png"
@@ -171,7 +171,7 @@ return(
           // You should ideally replace the hardcoded URL below with a value you set
           // in your gatsby-config.js file.  And import all shared site metadata into
           // this component with the useStaticQuery hook.
-          content: `./svg/iconmark.png`,
+          content: `https://landingpage-ashen.vercel.app/${ogImage}`,
         },
       ]}
     />
