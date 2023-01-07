@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="">
       <div className="flex-3 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5"> A group of founders that came together and decided to devote their lives to starting the rent revolution to better serve renters.</p>
+        <p className="mt-5"> A group of founders who came together and decided to devote our lives to starting the rent revolution to better serve renters.</p>
       </div>
       {/* <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
