@@ -1,0 +1,3 @@
+[submodule "node_modules/.cache/gh-pages/git@github.comWeb3-Abundance-Inc"]
+	path = node_modules/.cache/gh-pages/git@github.comWeb3-Abundance-Inc
+	url = git@github.com:Atlas-Web3-Abundance-Inc/landingpage.git
