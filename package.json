@@ -4,7 +4,7 @@
   "repository": "https://github.com/codebushi/gatsby-starter-lander",
   "version": "1.1.0",
   "license": "MIT",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://queenscripts.github.io/landingpage",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
