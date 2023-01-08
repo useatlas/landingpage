@@ -345,7 +345,7 @@ return(
       </div>
     </section> */}
 
-    <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+    <section className="container mx-auto my-20 py-24 bg-yellow-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Ready to earn points towards a free month of rent?</h3>
       {/* <p className="mt-8 text-xl font-light">
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
