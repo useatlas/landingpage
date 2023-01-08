@@ -239,7 +239,7 @@ return(
               <h3 className="font-semibold text-2xl mb-100"> Get Cash Back Monthly </h3>
               <img src = {screen1} style={{width: "100%", height: "600px", objectFit: "cover", objectPosition: "50% 0"}}/>
               <p className="mt-4 text-xl">
-              Get rewarded for paying rent. Earn points towards a free month of rent every month you pay rent through Atlas.
+              Get rewarded for paying rent. Earn points towards a free month of rent every month when you pay rent through Atlas.
                 {/* An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer. */}
               </p>
