@@ -81,7 +81,7 @@ const Texts = (props) => {
 const Index = () => {
   const [newName, setnewName] = useState("Get Cashback");
   // let ind ex = 0
-  
+  console.log("Coded with <3 by a Black woman. ")
     const shuffle = useCallback(() => {
         
               const index = Math.floor(Math.random() * names.length);
